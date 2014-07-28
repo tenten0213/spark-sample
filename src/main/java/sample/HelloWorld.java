@@ -1,3 +1,5 @@
+package sample;
+
 import static spark.Spark.*;
 import spark.*;
 

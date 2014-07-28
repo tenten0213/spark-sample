@@ -1,3 +1,5 @@
+package sample;
+
 import com.jayway.restassured.RestAssured;
 import org.junit.Test;
 
