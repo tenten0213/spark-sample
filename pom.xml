@@ -10,6 +10,7 @@
         <slf4j.version>1.6.1</slf4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <packaging>war</packaging>
     <dependencies>
         <dependency>
             <groupId>com.sparkjava</groupId>
@@ -70,6 +71,10 @@
                 <configuration>
                     <jvm>$JAVA_HOME/../jdk1.8.0/bin/java</jvm>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
