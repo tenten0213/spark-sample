@@ -13,7 +13,8 @@ public class HelloWorldTest {
 
     @BeforeClass
     public static void setUp() {
-        HelloWorld.main();
+        HelloWorld helloWorld = new HelloWorld();
+        helloWorld.init();
     }
 
     @Test
