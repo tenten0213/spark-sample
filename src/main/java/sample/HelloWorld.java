@@ -1,7 +1,6 @@
 package sample;
 
-import static spark.Spark.*;
-import spark.*;
+import static spark.Spark.get;
 import spark.servlet.SparkApplication;
 
 public class HelloWorld implements SparkApplication {
